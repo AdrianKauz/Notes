@@ -1,6 +1,4 @@
 # FFmpeg Examples
-- If FFmpeg is a part of a pipe, you have to organise the audio channel-mapping on your own. <br>Otherwise: Output order = Input Order
-- Depending on the input, sometimes you have to use the "BL" & "BR" Channels instead "SL" & "SR". <br>But it doesn't matter if you use "...c3=SL+BL|c4=SR+BR...".
 - If you lower the bitdepth from 24bit to 16bit, use dither.
 - "[-map](https://trac.ffmpeg.org/wiki/Map)" let you select the required audiostream. <br>
 
